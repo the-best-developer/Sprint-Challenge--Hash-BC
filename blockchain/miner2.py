@@ -23,7 +23,7 @@ def proof_of_work(last_proof):
     start = timer()
 
     print("Searching for next proof")
-    proof = 1000000
+    proof = 5000000
     #  TODO: Your code here
 
     while valid_proof(last_proof, proof) is False:
