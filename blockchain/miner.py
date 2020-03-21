@@ -48,7 +48,7 @@ def valid_proof(last_hash, proof):
 
     print(new_hash[:6] + " vs " + last_hash[-6:])
     
-    return new_hash[6:] == last_hash[:6]
+    return new_hash[:6] == last_hash[-6:]
 
 
 
